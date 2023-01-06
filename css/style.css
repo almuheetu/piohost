@@ -636,19 +636,41 @@ label {
 	padding: 80px 70px;
 }
 .price-body h2 {
-	font-size: 70px;
-	color: #002bb7;
-	line-height: 1;
-	letter-spacing: -2px;
+    font-size: 70px;
+    color: #002bb7;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
 }
 .price-body span{
-	position: absolute;
+	/* position: absolute; */
 	bottom: 0;
 	font-size: 14px;
 	left: 0;
 	color: #7d859f;
+	font-weight: 400;
 }
 .price-body span.month {
 	right: -15px;
 	left: auto;
+}
+
+.month {
+    margin-left: -10px;
+    font-weight: 400;
+}
+.price-body p {
+    margin-bottom: 36px;
+}
+.pricing-more-link p {
+	background: #fff;
+	display: inline-block;
+	padding: 20px 80px;
+	border-radius: 30px;
+	color: #000c35;
+	font-size: 18px;
+}
+.pricing-more-link p a {
+    color: #002bb7;
+    text-decoration: underline;
 }
