@@ -41,6 +41,14 @@ $("[data-background").each(function () {
 
 });
 
+
+// pricing active
+$('.chose-box').on('mouseenter', function () {
+  $(this).addClass('active').parent().siblings().find('.chose-box').removeClass('active');
+})
+
+
+
 // mainSlider
 function mainSlider() {
 	var BasicSlider = $('.slider-active');
