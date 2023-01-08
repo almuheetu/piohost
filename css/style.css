@@ -298,6 +298,11 @@ label {
     border: 2px solid #dbdbdb;
 	color: #7d859f;
 }
+.border{
+    background: transparent;
+    border: 2px solid #dbdbdb;
+	color: #000c35;
+}
 .my-btn-soft-border:hover {
     background: #002bb7;
     border-color:#002bb7;
@@ -674,3 +679,131 @@ label {
     color: #002bb7;
     text-decoration: underline;
 }
+
+/* Faq */
+.section-title.section-title-white h3 {
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 30px;
+	line-height: 60px;
+}
+.section-title.section-title-white h4 {
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+}
+.section-title.section-title-white span {
+	color: #fff;
+	font-weight: 500;
+	display: block;
+	margin-bottom: 15px;
+}
+.faq-img img {
+	margin-left: -30px;
+}
+.accordion-header a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.faq-box.accordion-item {
+	background-color: #3400bd;
+	border: 0;
+}
+.accordion-button {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 1rem 1.25rem;
+	font-size: 1rem;
+	color: #212529;
+	text-align: left;
+	background: none;
+	border: 0;
+	border-radius: 0;
+	overflow-anchor: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.accordion-body {
+	background: none;
+}
+.accordion-item {
+	margin-bottom: 30px;
+}
+
+
+.accordion-body {
+	background: #3400ba;
+	border: 1px solid #fff;
+  }
+  .accordion-item {
+	margin-bottom: 30px;
+  }
+  .accordion-button.collapsed {
+	background: #3400ba;
+	border: 2px solid #9278dc;
+  }
+  .accordion-body p {
+	color: #fff;
+  }
+  .accordion-button:not(.collapsed) {
+	color: #fff;
+	background: #3400ba;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+	border: 1px solid #fff;
+}
+.accordion-item {
+	background: none;
+	border: none;
+}
+.accordion-header a {
+	position: relative;
+}
+.accordion-header a::before{
+	position: absolute;
+	content: "\f070";
+	color: #fff;
+	top: 20px;
+	left: 20px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+}
+.accordion-header a.collapsed::before{
+	content: "\f06e";
+}
+#flush-headingOne a {
+	padding: 20px 0px;
+	padding-left: 65px;
+}
+#flush-headingTwo a {
+	padding: 20px 0px;
+	padding-left: 65px;
+}
+#flush-headingThree a {
+	padding: 20px 0px;
+	padding-left: 65px;
+}
+.accordion-header h5 {
+        font-size: 16px;
+		color: #fff;
+		margin: 0 0;
+		padding: 0 0;
+		font-weight: 400;
+	}
+
+	.accordion-button::after {
+		flex-shrink: 0;
+		width: 1.25rem;
+		height: 1.25rem;
+		margin-left: auto;
+		content: "";
+		background: none;
+		background-repeat: no-repeat;
+		background-size: 1.25rem;
+		transition: transform .2s ease-in-out;
+	}
+	.accordion-button:not(.collapsed)::after {
+		background: none;
+		transform: rotate(-180deg);
+	}

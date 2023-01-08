@@ -662,6 +662,11 @@
 .primary-bg {
 	background: #222;
 }
+.grad-bg {
+	background-image: -moz-linear-gradient( 90deg, rgb(54,0,175) 0%, rgb(50,0,205) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(54,0,175) 0%, rgb(50,0,205) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(54,0,175) 0%, rgb(50,0,205) 100%);
+}
 /* Color */
 
 .white-color {
