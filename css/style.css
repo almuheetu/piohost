@@ -1672,6 +1672,16 @@ span.price-colors {
 .news-feed-bottom-img img {
     max-width: 100%;
 }
+/* brand */
+.single-brand img {
+    display: inline-block;
+}
+.single-brand {
+    text-align: center;
+}
+.brand-border {
+    border-top: 1px solid #a9e0ff;
+}
 
 
 
