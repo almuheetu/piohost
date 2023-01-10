@@ -958,6 +958,9 @@ a.btn.text-btn-three {
     top: 29px;
     color: #7d859f;
 }
+.domain-select select {
+	background: #fff;
+}
 
 .domain-select::after {
     position: absolute;
@@ -1591,10 +1594,84 @@ span.price-colors {
     color: #fff;
 }
 
+/* news feeds */
 
+.news-feed-info {
+    padding: 40px 28px;
+    padding-bottom: 0;
+}
 
+.news-feed-mata ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
 
+.news-feed-mata ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
 
+.news-feed-mata ul li:last-child {
+    margin-right: 0;
+}
+
+.news-feed-mata ul li a {
+    font-size: 14px;
+    color: #002bb7;
+    font-weight: 500;
+    font-family: Rubik;
+    text-decoration: none;
+    margin-left: 11px;
+}
+
+.news-feed-img img {
+    max-width: 100%;
+}
+
+.news-feed-img {
+    overflow: hidden;
+}
+
+.latest-feed:hover .news-feed-img img {
+    transform: scale(1.1);
+}
+
+.news-date {
+    float: right;
+    margin-top: 13px;
+    color: #7d859f;
+}
+
+.news-feed-mata ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.news-date span {
+    color: #7d859f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.news-feed-titles h4 {
+    margin-top: 22px;
+    margin-bottom: 16px;
+}
+
+.news-feed-titles h4 a {
+    color: #000c35;
+    text-decoration: none;
+}
+
+.news-feed-titles h4 a:hover {
+    color: #002bb7;
+}
+
+.news-feed-bottom-img img {
+    max-width: 100%;
+}
 
 
 
