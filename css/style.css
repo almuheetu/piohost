@@ -1685,6 +1685,288 @@ span.price-colors {
 
 
 
+/* footer area */
+
+.footer-sing-up h5 {
+    color: #707eac
+}
+
+.footer-left-info h5 {
+    color: #d1d2d6;
+}
+
+.footer-sing-up h5,
+.footer-left-info h5 {
+    margin-bottom: 25px;
+}
+
+.footer-sing-up h2,
+.footer-left-info h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-left-info h5 {
+    font-weight: 400;
+}
+
+.footer-btn {
+    text-align: right;
+}
+
+.footer-left-info h2 span {
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.footer-border {
+    border-bottom: 1px solid #37477c;
+    padding: 32px 0;
+    display: block;
+    margin-bottom: 75px;
+    padding-top: 10px;
+}
+
+.footer-bottom-area {
+    background: #000f44;
+    padding: 50px;
+}
+
+.widgets p {
+    margin-bottom: 39px;
+    color: #9da7c9;
+}
+
+.footer-logo {
+    margin-bottom: 23px;
+}
+
+ul.adress li {
+    font-size: 14px;
+    line-height: 34px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+ul.adress li:last-child {
+    ;
+    margin-bottom: 0px;
+}
+
+ul.adress {
+    margin: 0;
+    padding: 0;
+}
+
+ul.adress li i {
+    float: left;
+    width: 25px;
+}
+
+ul.adress li span {
+    display: block;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.widgets-titles h4 {
+    color: #fff;
+}
+
+.widgets-titles h4 {
+    margin-bottom: 32px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.widgets-titles h4::before {
+    position: absolute;
+    width: 59px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #3400bd;
+}
+
+.footer-line-img {
+    margin-bottom: 22px;
+}
+
+.widgets-titles h4 {
+    margin-bottom: 25px;
+}
+
+.wegets-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wegets-body ul li {
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    background: #3200ca;
+}
+
+.footer-social {
+    padding: 26px;
+}
+
+.footer-social a {
+    margin: 0 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-bottom-line-area {
+    position: relative;
+}
+
+.footer-right-box {
+    border-bottom: 1px solid #37477c;
+    padding-bottom: 20px;
+    margin-bottom: 18px;
+}
+
+.footer-text p {
+    padding-top: 18px;
+    padding-right: 37px;
+}
+
+.footer-orange-btn a {
+    background: #f07d34;
+}
+
+.footer-text {}
+
+.testimonail-area .activ-testimonai button {
+    position: absolute;
+    border: none;
+    width: 60px;
+    height: 60px;
+    right: 15px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000c35;
+    font-size: 18px;
+    top: -148px;
+    transition: .3s;
+}
+
+.activ-testimonai button.slick-prev {
+    right: 85px;
+}
+
+.testimonail-area .activ-testimonai button:hover {
+    background: #5c33d3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.wegets-body ul li a {
+    color: #9da7c9;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.wegets-body ul li a:hover {
+    color: #fff;
+}
+
+.footer-orange-btn {
+    margin-top: 16px;
+}
+
+.footer-left-info {
+    margin-left: 80px;
+}
+
+.footer-social-info a {
+    margin-right: 15px;
+}
+
+.footer-social-info a:hover {
+    color: #fff;
+}
+
+.footer-info .widgets p {
+    margin-bottom: 30px;
+}
+
+.footer-default .widgets-titles h4 {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+.footer-default .widgets-titles h4::before {
+    top: auto;
+    bottom: 0;
+}
+
+.copyright-area {
+    border-top: 1px solid #22305e;
+}
+
+.copyright-text {
+    padding: 20px 0;
+}
+
+.copyright-text p {
+    margin: 0;
+}
+
+.footer-default {}
+
+.footer-default {}
+
+.footer-default {}
+
+.footer-default {}
+
+/* core-features-area */
+
+.core-features-area {
+    background-size: cover;
+}
+
+.core-features-icon {
+    float: left;
+    width: 115px;
+    height: 115px;
+    background: #fff;
+    display: inline-block;
+    line-height: 112px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 37px;
+}
+
+.core-features-content {
+    overflow: hidden;
+    padding-top: 6px;
+}
+
+.core-features-content h4 {
+    font-size: 24px;
+    margin-bottom: 19px;
+    font-weight: 600;
+}
+
+.core-features-content p {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.features-box {
+    overflow: hidden;
+}
+
+
+
+
 
 
 
