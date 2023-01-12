@@ -1682,6 +1682,160 @@ span.price-colors {
 .brand-border {
     border-top: 1px solid #a9e0ff;
 }
+/* footer area */
+
+.footer-sing-up h5 {
+    color: #707eac
+}
+
+.footer-left-info h5 {
+    color: #d1d2d6;
+}
+
+.footer-sing-up h5,
+.footer-left-info h5 {
+    margin-bottom: 25px;
+}
+
+.footer-sing-up h2,
+.footer-left-info h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-left-info h5 {
+    font-weight: 400;
+}
+
+.footer-btn {
+    text-align: right;
+}
+
+.footer-left-info h2 span {
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.footer-border {
+    border-bottom: 1px solid #37477c;
+    padding: 32px 0;
+    display: block;
+    margin-bottom: 75px;
+    padding-top: 10px;
+}
+
+.footer-bottom-area {
+    background: #000f44;
+    padding: 50px;
+}
+
+.widgets p {
+    margin-bottom: 39px;
+    color: #9da7c9;
+}
+
+.footer-logo {
+    margin-bottom: 23px;
+}
+
+ul.adress li {
+    font-size: 14px;
+    line-height: 34px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+ul.adress li:last-child {
+    ;
+    margin-bottom: 0px;
+}
+
+ul.adress {
+    margin: 0;
+    padding: 0;
+}
+
+ul.adress li i {
+    float: left;
+    width: 25px;
+}
+
+ul.adress li span {
+    display: block;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.widgets-titles h4 {
+    color: #fff;
+}
+
+.widgets-titles h4 {
+    margin-bottom: 32px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.widgets-titles h4::before {
+    position: absolute;
+    width: 59px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #3400bd;
+}
+
+.footer-line-img {
+    margin-bottom: 22px;
+}
+
+.widgets-titles h4 {
+    margin-bottom: 25px;
+}
+
+.wegets-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wegets-body ul li {
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    background: #3200ca;
+}
+
+.footer-social {
+    padding: 26px;
+}
+
+.footer-social a {
+    margin: 0 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-bottom-line-area {
+    position: relative;
+}
+
+.footer-right-box {
+    border-bottom: 1px solid #37477c;
+    padding-bottom: 20px;
+    margin-bottom: 18px;
+}
+
+.footer-text p {
+    padding-top: 18px;
+    padding-right: 37px;
+}
+
+.footer-orange-btn a {
+    background: #f07d34;
+}
 
 
 

@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
 
     "use strict";
 
@@ -20,7 +20,7 @@
 
     // data - background
 
-    $("[data-background]").each(function() {
+    $("[data-background]").each(function () {
 
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
 
@@ -28,7 +28,7 @@
 
 
 
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
 
         var scroll = $(window).scrollTop();
 
@@ -46,7 +46,7 @@
 
 
 
-    $('.info-bar').on('click', function() {
+    $('.info-bar').on('click', function () {
 
         $('.extra-info').addClass('info-open');
 
@@ -54,7 +54,7 @@
 
 
 
-    $('.close-icon').on('click', function() {
+    $('.close-icon').on('click', function () {
 
         $('.extra-info').removeClass('info-open');
 
@@ -76,7 +76,7 @@
 
 
 
-    $('.search-trigger').on('click', function(e) {
+    $('.search-trigger').on('click', function (e) {
 
         e.preventDefault();
 
@@ -90,7 +90,7 @@
 
 
 
-    $('.search-close').on('click', function(e) {
+    $('.search-close').on('click', function (e) {
 
         e.preventDefault();
 
@@ -114,7 +114,7 @@
 
 
 
-    $(document.body).on('click', function(e) {
+    $(document.body).on('click', function (e) {
 
         closeSearch();
 
@@ -122,7 +122,7 @@
 
 
 
-    $(".search-trigger, .main-search-input").on('click', function(e) {
+    $(".search-trigger, .main-search-input").on('click', function (e) {
 
         e.stopPropagation();
 
@@ -136,7 +136,7 @@
 
     // pricing active
 
-    $('.chose-box').on('mouseenter', function() {
+    $('.chose-box').on('mouseenter', function () {
 
         $(this).addClass('active').parent().siblings().find('.chose-box').removeClass('active');
 
@@ -150,7 +150,7 @@
 
         var BasicSlider = $('.slider-active');
 
-        BasicSlider.on('init', function(e, slick) {
+        BasicSlider.on('init', function (e, slick) {
 
             var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
 
@@ -158,7 +158,7 @@
 
         });
 
-        BasicSlider.on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+        BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
 
             var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
 
@@ -198,7 +198,7 @@
 
             var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-            elements.each(function() {
+            elements.each(function () {
 
                 var $this = $(this);
 
@@ -214,7 +214,7 @@
 
                 });
 
-                $this.addClass($animationType).one(animationEndEvents, function() {
+                $this.addClass($animationType).one(animationEndEvents, function () {
 
                     $this.removeClass($animationType);
 
@@ -321,6 +321,10 @@
         arrows: false,
 
         infinite: true,
+
+        autoplay: true,
+
+        mautoplaySpeed: 10000,
 
         speed: 300,
 
@@ -532,7 +536,7 @@
 
     // isotop
 
-    $('.grid').imagesLoaded(function() {
+    $('.grid').imagesLoaded(function () {
 
         // init Isotope
 
@@ -558,7 +562,7 @@
 
     // filter items on button click
 
-    $('.portfolio-menu').on('click', 'button', function() {
+    $('.portfolio-menu').on('click', 'button', function () {
 
         var filterValue = $(this).attr('data-filter');
 
@@ -572,7 +576,7 @@
 
     //for menu active class
 
-    $('.portfolio-menu button').on('click', function(event) {
+    $('.portfolio-menu button').on('click', function (event) {
 
         $(this).siblings('.active').removeClass('active');
 
