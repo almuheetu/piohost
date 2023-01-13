@@ -315,6 +315,10 @@
 
 
     $('.brand-active').slick({
+        
+        autoplay: true,
+        
+        autoplaySpeed: 10000,
 
         dots: false,
 
