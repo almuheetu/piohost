@@ -1695,7 +1695,9 @@ span.price-colors {
     color: #d1d2d6;
 }
 
-.footer-sing-up h5,
+.footer-sing-up h5 {
+	text-transform: uppercase;
+}
 .footer-left-info h5 {
     margin-bottom: 25px;
 }
