@@ -1752,7 +1752,6 @@ ul.adress li {
 }
 
 ul.adress li:last-child {
-    ;
     margin-bottom: 0px;
 }
 
@@ -1962,9 +1961,8 @@ ul.adress li span {
 
 
 
-/* 
 /* core-features-area */
-/* 
+
 .core-features-area {
     background-size: cover;
 }
@@ -2001,7 +1999,7 @@ ul.adress li span {
     overflow: hidden;
 }
 
-/* extra */
+extra
 
 
 .service-content-three {
@@ -3162,7 +3160,7 @@ p.privacy-color {
         margin-bottom: 10px;
         display: block;
     }
-}  */
+} 
 
 
 

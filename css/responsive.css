@@ -137,6 +137,9 @@
     .pricing-wrapper {
         padding: 80px 41px;
     }
+    .pricing-wrapper {
+        padding: 80px 41px;
+    }
     .faq-img img {
         margin-left: 0;
     }
@@ -168,6 +171,10 @@
     }
     .service-content-three h4 {
         font-size: 21px;
+    }
+    .testimonail-area-three {
+        padding: 120px 0;
+        padding-top: 50px;
     }
     .testimonail-area-three {
         padding: 120px 0;
@@ -219,6 +226,9 @@
     }
     .pricing-wrapper {
         padding: 80px 41px;
+    }
+    .slider-height {
+        min-height: 675px;
     }
     .slider-height {
         min-height: 675px;
@@ -279,6 +289,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .header-2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .slider-text.slider-text-2 h2 {
         font-size: 30px;
     }
@@ -299,7 +313,7 @@
         float: none;
         margin-right: 0;
         margin: auto;
-        margin-bottom: 20px;
+       margin-bottom: 20px;
     }
     .features-box {
         text-align: center;
@@ -353,6 +367,10 @@
         padding: 30px;
         padding-bottom: 30px;
     }
+    .team-text {
+        padding: 30px;
+        padding-bottom: 30px;
+    }
     .widget-wrapper {
         padding: 30px 30px;
     }
@@ -380,6 +398,9 @@
     }
     .chose-content p {
         padding: 0;
+    }
+    .wigets.mb-30.pl-40 {
+        padding-left: 0;
     }
     .wigets.mb-30.pl-40 {
         padding-left: 0;
