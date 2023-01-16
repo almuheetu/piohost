@@ -1231,6 +1231,13 @@ span.price-colors {
     padding: 54px 60px;
 }
 
+.mean-container .mean-nav {
+	background: #002bb7;
+	float: left;
+	margin-top: 15px;
+	width: 100%;
+}
+
 /* faq */
 
 .section-title-white h3 {
